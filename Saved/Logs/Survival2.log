@@ -26933,4 +26933,291 @@ Script call stack:
 [2016.07.22-22.55.33:207][393]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
 [2016.07.22-22.55.33:207][393]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
 [2016.07.22-22.55.33:247][393]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.0
+[2016.07.22-22.55.33:266][393]LogInit: FAudioDevice initialized.
+[2016.07.22-22.55.33:311][393]LogWorld: Game class is 'GameBp_C'
+[2016.07.22-22.55.33:319][393]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.07.22-18.55.33
+[2016.07.22-22.55.33:320][393]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.22-22.55.33:320][393]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.22-22.55.33:483][393]LogWorld: Bringing up level for play took: 0.169932
+[2016.07.22-22.55.33:484][393]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_0's PathFollowingComponent
+[2016.07.22-22.55.33:487][393]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.501
+[2016.07.22-22.55.33:487][393]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.22-22.55.51:918][477]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.22-22.55.52:133][477]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.22-22.55.52:165][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020A95EAC7C0
+[2016.07.22-22.55.55:170][781]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.07.22-22.56.04:784][820]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.22-22.56.04:784][820]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.07.22-22.56.06:367][820]LogSavePackage: Save=176.529663ms
+[2016.07.22-22.56.06:367][820]LogSavePackage: Moving '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Saved/Minimal_Default912C8B8B44BBB415065449AB85892B0D.tmp' to '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.07.22-22.56.06:371][820]LogSavePackage: Total save time: 226.290319ms
+[2016.07.22-22.56.06:371][820]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.07.22-22.56.06:405][820]LogFileHelpers: Saving map 'Minimal_Default' took 1.498
+[2016.07.22-23.40.48:923][277]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.07.22-23.43.09:263][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.22-23.43.09:263][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2016.07.22-23.43.43:198][ 19]BlueprintLog: New page: Compile Uruk1
+[2016.07.22-23.43.43:237][ 19]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_6.CollisionCylinder and CapsuleComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_C_5.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.07.22-23.43.43:237][ 19]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_6.Arrow and ArrowComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_C_5.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.07.22-23.43.43:237][ 19]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_6.CharMoveComp and CharacterMovementComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_C_5.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.07.22-23.43.43:237][ 19]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_6.CharacterMesh0 and SkeletalMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_C_5.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.07.22-23.43.43:300][ 19]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2016.07.22-23.43.43:300][ 19]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.22-23.43.43:371][ 19]BlueprintEditorCompileResults: Info [5211.80] Compile of Uruk1 successful! [in 172 ms]
+[2016.07.22-23.43.44:102][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Uruk1" FILE="../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/Uruk1.uasset" SILENT=true
+[2016.07.22-23.43.44:135][ 28]LogSavePackage: Save=26.770424ms
+[2016.07.22-23.43.44:135][ 28]LogSavePackage: Moving '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Saved/Uruk147398B274B45052AA9BADEBACCB055B7.tmp' to '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/Uruk1.uasset'
+[2016.07.22-23.43.44:138][ 28]LogSavePackage: Total save time: 34.458704ms
+[2016.07.22-23.43.44:138][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/Uruk1.uasset
+[2016.07.22-23.44.04:964][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.22-23.44.04:964][611]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.22-23.44.14:182][849]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2016.07.22-23.44.14:182][849]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2016.07.22-23.44.22:383][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2016.07.22-23.44.22:383][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2016.07.22-23.44.28:715][238]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2016.07.22-23.44.28:715][238]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2016.07.22-23.44.33:860][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2016.07.22-23.44.33:860][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_3) Not registered. Aborting.
+[2016.07.22-23.44.39:993][555]BlueprintLog: New page: Compile Uruk1
+[2016.07.22-23.44.40:063][555]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2016.07.22-23.44.40:063][555]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_4) Not registered. Aborting.
+[2016.07.22-23.44.40:098][555]BlueprintEditorCompileResults: Info [5268.52] Compile of Uruk1 successful! [in 104 ms]
+[2016.07.22-23.44.40:920][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Uruk1" FILE="../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/Uruk1.uasset" SILENT=true
+[2016.07.22-23.44.40:952][566]LogSavePackage: Save=27.212946ms
+[2016.07.22-23.44.40:952][566]LogSavePackage: Moving '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Saved/Uruk1DA16F10F4BD76BB9034586996168ABA1.tmp' to '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/Uruk1.uasset'
+[2016.07.22-23.44.40:956][566]LogSavePackage: Total save time: 33.854332ms
+[2016.07.22-23.44.40:956][566]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/Uruk1.uasset
+[2016.07.22-23.44.47:016][688]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.22-23.44.47:016][688]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.22-23.44.47:182][688]LogSavePackage: Save=118.962296ms
+[2016.07.22-23.44.47:182][688]LogSavePackage: Moving '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Saved/Minimal_Default8FF66E2E45160346D505B992F4C73450.tmp' to '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.07.22-23.44.47:186][688]LogSavePackage: Total save time: 129.760865ms
+[2016.07.22-23.44.47:186][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.07.23-04.29.03:476][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.29.03:476][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.23-04.29.03:477][746]PIE: New page: PIE session: Minimal_Default (Jul 22, 2016, 8:29:03 PM)
+[2016.07.23-04.29.03:478][746]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.07.23-04.29.03:486][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008351s)
+[2016.07.23-04.29.03:490][746]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.07.23-04.29.03:490][746]LogPlayLevel: PIE: World Init took: (0.004228s)
+[2016.07.23-04.29.03:491][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013121s)
+[2016.07.23-04.29.03:491][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.23-04.29.03:491][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.23-04.29.03:491][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2016.07.23-04.29.03:549][746]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.23-04.29.03:566][746]LogInit: FAudioDevice initialized.
+[2016.07.23-04.29.03:600][746]LogWorld: Game class is 'GameBp_C'
+[2016.07.23-04.29.03:606][746]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.07.23-00.29.03
+[2016.07.23-04.29.03:606][746]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-04.29.03:606][746]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-04.29.03:607][746]LogWorld: Bringing up level for play took: 0.005707
+[2016.07.23-04.29.03:607][746]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_1's PathFollowingComponent
+[2016.07.23-04.29.03:612][746]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.257
+[2016.07.23-04.29.03:612][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.29.28:966][516]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.29.29:090][516]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.29.29:125][516]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020A78933E20
+[2016.07.23-04.35.51:802][741]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.35.51:802][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.23-04.35.51:802][741]PIE: New page: PIE session: Minimal_Default (Jul 22, 2016, 8:35:51 PM)
+[2016.07.23-04.35.51:803][741]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.07.23-04.35.51:807][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003940s)
+[2016.07.23-04.35.51:808][741]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.07.23-04.35.51:809][741]LogPlayLevel: PIE: World Init took: (0.001475s)
+[2016.07.23-04.35.51:809][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005710s)
+[2016.07.23-04.35.51:809][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.23-04.35.51:809][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.23-04.35.51:809][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2016.07.23-04.35.51:855][741]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.23-04.35.51:878][741]LogInit: FAudioDevice initialized.
+[2016.07.23-04.35.51:928][741]LogWorld: Game class is 'GameBp_C'
+[2016.07.23-04.35.51:941][741]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.07.23-00.35.51
+[2016.07.23-04.35.51:941][741]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-04.35.51:942][741]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-04.35.51:944][741]LogWorld: Bringing up level for play took: 0.012146
+[2016.07.23-04.35.51:944][741]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_2's PathFollowingComponent
+[2016.07.23-04.35.51:951][741]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.082
+[2016.07.23-04.35.51:952][741]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.36.37:524][119]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.36.37:618][119]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.36.37:674][119]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020A8D57BE20
+[2016.07.23-04.46.16:567][212]LogActor:Warning: RecastNavMesh /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.RecastNavMesh_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-04.48.59:015][659]BlueprintLog: New page: Compile Uruk1
+[2016.07.23-04.48.59:037][659]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_C_5.CollisionCylinder and CapsuleComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.07.23-04.48.59:037][659]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_C_5.Arrow and ArrowComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.07.23-04.48.59:037][659]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_C_5.CharMoveComp and CharacterMovementComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.07.23-04.48.59:037][659]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_C_5.CharacterMesh0 and SkeletalMeshComponent /Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Uruk1_C_1.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.07.23-04.48.59:115][659]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.23-04.48.59:115][659]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.23-04.48.59:148][659]BlueprintEditorCompileResults: Info [3565.68] Compile of Uruk1 successful! [in 131 ms]
+[2016.07.23-04.48.59:911][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Uruk1" FILE="../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/Uruk1.uasset" SILENT=true
+[2016.07.23-04.48.59:946][678]LogSavePackage: Save=30.036247ms
+[2016.07.23-04.48.59:946][678]LogSavePackage: Moving '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Saved/Uruk1F388D58242091B58B4BECA96A14FAF2C.tmp' to '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/Uruk1.uasset'
+[2016.07.23-04.48.59:949][678]LogSavePackage: Total save time: 36.841065ms
+[2016.07.23-04.48.59:949][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/Uruk1.uasset
+[2016.07.23-04.49.00:938][709]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.49.00:938][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.23-04.49.00:938][709]PIE: New page: PIE session: Minimal_Default (Jul 22, 2016, 8:49:00 PM)
+[2016.07.23-04.49.00:938][709]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.07.23-04.49.00:950][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011071s)
+[2016.07.23-04.49.00:950][709]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.07.23-04.49.00:951][709]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2016.07.23-04.49.00:951][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.012479s)
+[2016.07.23-04.49.00:951][709]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.23-04.49.00:951][709]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.23-04.49.00:991][709]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.23-04.49.01:011][709]LogInit: FAudioDevice initialized.
+[2016.07.23-04.49.01:423][709]LogWorld: Game class is 'GameBp_C'
+[2016.07.23-04.49.01:436][709]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.07.23-00.49.01
+[2016.07.23-04.49.01:436][709]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-04.49.01:437][709]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-04.49.01:438][709]LogWorld: Bringing up level for play took: 0.013268
+[2016.07.23-04.49.01:460][709]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.409
+[2016.07.23-04.49.01:460][709]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.49.42:690][333]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.49.42:833][333]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.49.42:894][333]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020A9EAE5B20
+[2016.07.23-04.50.25:070][387]LogSavePackage: Save=320.566101ms
+[2016.07.23-04.50.25:070][387]LogSavePackage: Moving '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Saved/Minimal_Default_Auto8D343120843C52D5116F724B20A8188B7.tmp' to '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto8.umap'
+[2016.07.23-04.50.25:073][387]LogSavePackage: Total save time: 403.633580ms
+[2016.07.23-04.50.25:073][387]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto8.umap
+[2016.07.23-04.50.25:076][387]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.475
+[2016.07.23-04.50.25:076][387]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.475
+[2016.07.23-04.51.42:963][512]BlueprintLog: New page: Compile Uruk1
+[2016.07.23-04.51.43:351][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.23-04.51.43:352][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.23-04.51.43:534][512]BlueprintEditorCompileResults: Info [3730.07] Compile of Uruk1 successful! [in 570 ms]
+[2016.07.23-04.51.44:780][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/Uruk1" FILE="../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/Uruk1.uasset" SILENT=true
+[2016.07.23-04.51.45:068][523]LogSavePackage: Save=263.684052ms
+[2016.07.23-04.51.45:068][523]LogSavePackage: Moving '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Saved/Uruk14994DEC5474E091C4AEA3E96D93A83AA.tmp' to '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/Uruk1.uasset'
+[2016.07.23-04.51.45:088][523]LogSavePackage: Total save time: 300.787620ms
+[2016.07.23-04.51.45:088][523]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/Uruk1.uasset
+[2016.07.23-04.52.07:836][670]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.52.07:836][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.23-04.52.07:837][670]PIE: New page: PIE session: Minimal_Default (Jul 22, 2016, 8:52:07 PM)
+[2016.07.23-04.52.07:837][670]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.07.23-04.52.07:879][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041633s)
+[2016.07.23-04.52.07:880][670]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.07.23-04.52.07:880][670]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2016.07.23-04.52.07:880][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.043225s)
+[2016.07.23-04.52.07:880][670]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.23-04.52.07:880][670]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.23-04.52.07:940][670]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.23-04.52.07:971][670]LogInit: FAudioDevice initialized.
+[2016.07.23-04.52.08:344][670]LogWorld: Game class is 'GameBp_C'
+[2016.07.23-04.52.08:352][670]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.07.23-00.52.08
+[2016.07.23-04.52.08:352][670]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-04.52.08:353][670]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-04.52.08:355][670]LogWorld: Bringing up level for play took: 0.008426
+[2016.07.23-04.52.08:377][670]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.507
+[2016.07.23-04.52.08:377][670]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.52.43:707][203]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.52.43:825][203]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-04.52.43:874][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020A9EAE5800
+[2016.07.23-05.00.24:843][526]BlueprintLog: New page: Compile PlayerBp
+[2016.07.23-05.00.25:318][526]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.23-05.00.25:521][526]BlueprintEditorCompileResults: Info [4252.05] Compile of PlayerBp successful! [in 677 ms]
+[2016.07.23-05.00.26:584][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/PlayerBp" FILE="../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/PlayerBp.uasset" SILENT=true
+[2016.07.23-05.00.26:966][537]LogSavePackage: Save=340.097504ms
+[2016.07.23-05.00.26:967][537]LogSavePackage: Moving '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Saved/PlayerBp8BEF6A9D4479A8BE770A059ED048230E.tmp' to '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/PlayerBp.uasset'
+[2016.07.23-05.00.26:981][537]LogSavePackage: Total save time: 391.663764ms
+[2016.07.23-05.00.26:981][537]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/PlayerBp.uasset
+[2016.07.23-05.00.28:259][566]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-05.00.28:259][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.23-05.00.28:259][566]PIE: New page: PIE session: Minimal_Default (Jul 22, 2016, 9:00:28 PM)
+[2016.07.23-05.00.28:261][566]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.07.23-05.00.28:270][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009422s)
+[2016.07.23-05.00.28:272][566]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.07.23-05.00.28:273][566]LogPlayLevel: PIE: World Init took: (0.002421s)
+[2016.07.23-05.00.28:273][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.012531s)
+[2016.07.23-05.00.28:273][566]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.23-05.00.28:273][566]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.23-05.00.28:273][566]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2016.07.23-05.00.28:481][566]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.23-05.00.28:592][566]LogInit: FAudioDevice initialized.
+[2016.07.23-05.00.29:410][566]LogWorld: Game class is 'GameBp_C'
+[2016.07.23-05.00.29:428][566]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2016.07.23-01.00.29
+[2016.07.23-05.00.29:428][566]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-05.00.29:430][566]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-05.00.29:435][566]LogWorld: Bringing up level for play took: 0.020553
+[2016.07.23-05.00.29:559][566]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.689
+[2016.07.23-05.00.29:559][566]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-05.00.38:767][706]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-05.00.38:932][706]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-05.00.39:024][706]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020AAACD6020
+[2016.07.23-05.00.49:600][962]BlueprintLog: New page: Compile PlayerBp
+[2016.07.23-05.00.49:873][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.23-05.00.49:965][962]BlueprintEditorCompileResults: Info [4276.50] Compile of PlayerBp successful! [in 364 ms]
+[2016.07.23-05.00.50:526][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/PlayerBp" FILE="../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/PlayerBp.uasset" SILENT=true
+[2016.07.23-05.00.50:645][967]LogSavePackage: Save=110.484497ms
+[2016.07.23-05.00.50:645][967]LogSavePackage: Moving '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Saved/PlayerBp00954A91453487A02CCFFEAD01DE42D8.tmp' to '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/PlayerBp.uasset'
+[2016.07.23-05.00.50:653][967]LogSavePackage: Total save time: 124.174271ms
+[2016.07.23-05.00.50:653][967]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/PlayerBp.uasset
+[2016.07.23-05.00.51:358][987]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-05.00.51:358][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.23-05.00.51:358][987]PIE: New page: PIE session: Minimal_Default (Jul 22, 2016, 9:00:51 PM)
+[2016.07.23-05.00.51:359][987]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.07.23-05.00.51:363][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004139s)
+[2016.07.23-05.00.51:364][987]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.07.23-05.00.51:364][987]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2016.07.23-05.00.51:365][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005920s)
+[2016.07.23-05.00.51:365][987]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.23-05.00.51:365][987]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.23-05.00.51:365][987]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2016.07.23-05.00.51:424][987]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.23-05.00.51:455][987]LogInit: FAudioDevice initialized.
+[2016.07.23-05.00.51:865][987]LogWorld: Game class is 'GameBp_C'
+[2016.07.23-05.00.51:879][987]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2016.07.23-01.00.51
+[2016.07.23-05.00.51:879][987]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-05.00.51:879][987]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-05.00.51:881][987]LogWorld: Bringing up level for play took: 0.012102
+[2016.07.23-05.00.51:924][987]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.055
+[2016.07.23-05.00.51:925][987]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-05.00.58:938][ 94]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-05.00.59:084][ 94]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-05.00.59:152][ 94]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020AA1BA4540
+[2016.07.23-05.01.03:843][174]BlueprintLog: New page: Compile PlayerBp
+[2016.07.23-05.01.04:003][174]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.23-05.01.04:162][174]BlueprintEditorCompileResults: Info [4290.70] Compile of PlayerBp successful! [in 319 ms]
+[2016.07.23-05.01.04:687][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/PlayerBp" FILE="../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/PlayerBp.uasset" SILENT=true
+[2016.07.23-05.01.04:788][178]LogSavePackage: Save=92.068710ms
+[2016.07.23-05.01.04:788][178]LogSavePackage: Moving '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Saved/PlayerBpA5FC11E140F0C4A22A6BE2B50B7223B9.tmp' to '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/PlayerBp.uasset'
+[2016.07.23-05.01.04:792][178]LogSavePackage: Total save time: 101.115741ms
+[2016.07.23-05.01.04:792][178]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/PlayerBp.uasset
+[2016.07.23-05.01.06:562][226]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-05.01.06:562][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.23-05.01.06:563][226]PIE: New page: PIE session: Minimal_Default (Jul 22, 2016, 9:01:06 PM)
+[2016.07.23-05.01.06:563][226]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.07.23-05.01.06:571][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007472s)
+[2016.07.23-05.01.06:571][226]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.07.23-05.01.06:571][226]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2016.07.23-05.01.06:572][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008593s)
+[2016.07.23-05.01.06:572][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.23-05.01.06:572][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.23-05.01.06:572][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2016.07.23-05.01.06:621][226]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.23-05.01.06:643][226]LogInit: FAudioDevice initialized.
+[2016.07.23-05.01.07:156][226]LogWorld: Game class is 'GameBp_C'
+[2016.07.23-05.01.07:169][226]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2016.07.23-01.01.07
+[2016.07.23-05.01.07:169][226]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-05.01.07:169][226]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_46 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.23-05.01.07:171][226]LogWorld: Bringing up level for play took: 0.012155
+[2016.07.23-05.01.07:216][226]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.347
+[2016.07.23-05.01.07:216][226]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-05.01.40:108][722]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-05.01.40:251][722]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.07.23-05.01.40:313][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020AAB3D1620
+[2016.07.23-05.01.56:504][138]BlueprintLog: New page: Compile PlayerBp
+[2016.07.23-05.01.56:693][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.23-05.01.56:757][138]BlueprintEditorCompileResults: Info [4343.29] Compile of PlayerBp successful! [in 252 ms]
+[2016.07.23-05.02.21:314][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyAssets/PlayerBp" FILE="../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/PlayerBp.uasset" SILENT=true
+[2016.07.23-05.02.21:477][886]LogSavePackage: Save=154.270523ms
+[2016.07.23-05.02.21:477][886]LogSavePackage: Moving '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Saved/PlayerBp2E37DCCD4DEFEA6A506A478BC1B86562.tmp' to '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/PlayerBp.uasset'
+[2016.07.23-05.02.21:488][886]LogSavePackage: Total save time: 170.781214ms
+[2016.07.23-05.02.21:488][886]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Survival2/Content/MyAssets/PlayerBp.uasset
+[2016.07.23-05.02.56:580][285]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.23-05.02.56:580][285]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.23-05.02.56:580][285]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2016.07.23-05.02.56:871][285]LogSavePackage: Save=225.593582ms
+[2016.07.23-05.02.56:871][285]LogSavePackage: Moving '../../../../../../Users/krish/OneDrive/Documents/Unreal Projects/Su
